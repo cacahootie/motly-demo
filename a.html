@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body %}
+    This is the first type of template
+
+    <ul>
+    {% for item in results %}
+        <li>{% if item.name %}
+            {{ item.name }}
+        {% elif item.capital %}
+            {{ item.capital }} {{ item.country }}
+        {% endif %}</li>
+    {% endfor %}
+    </ul>
+
+{% endblock %}

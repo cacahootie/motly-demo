@@ -1,18 +1,18 @@
 {
     "/":{
-        "template":"index.html",
+        "template":"a.html",
         "context":{
             "url":"http://relately.slothattax.me/select/world/countries"
         }
     },
     "/cities":{
-        "template":"index.html",
+        "template":"b.html",
         "context":{
             "url":"http://relately.slothattax.me/select/world/cities"
         }
     },
     "/captitals":{
-        "template":"index.html",
+        "template":"a.html",
         "context":{
             "url":"http://relately.slothattax.me/select/world/capitals"
         }
