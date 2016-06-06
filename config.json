@@ -26,7 +26,7 @@
     "/namegenerator":{
         "template":"names.html",
         "context":{
-            "url":"http://uinames.com/api/"
+            "url":"http://uinames.com/api/?{{ req.queryString }}"
         }
     },
     "/posts/":{
