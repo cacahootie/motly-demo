@@ -20,7 +20,7 @@
     "/hipsteripsum":{
         "template":"content.html",
         "context":{
-            "url":"http://hipsterjesus.com/api/?paras=2"
+            "url":"http://hipsterjesus.com/api/?{{ req.queryString }}"
         }
     },
     "/namegenerator":{
