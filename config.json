@@ -16,5 +16,11 @@
         "context":{
             "url":"http://relately.slothattax.me/select/world/capitals"
         }
+    },
+    "/hipsteripsum":{
+        "template":"content.html",
+        "context":{
+            "url":"http://hipsterjesus.com/api/?paras=2"
+        }
     }
 }
