@@ -22,5 +22,11 @@
         "context":{
             "url":"http://hipsterjesus.com/api/?paras=2"
         }
+    },
+    "/namegenerator":{
+        "template":"names.html",
+        "context":{
+            "url":"http://uinames.com/api/"
+        }
     }
 }
