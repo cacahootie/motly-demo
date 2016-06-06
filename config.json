@@ -17,6 +17,17 @@
             "url":"http://relately.slothattax.me/select/world/capitals"
         }
     },
+    "/places":{
+        "template":"places.html",
+        "context":{
+            "cities":{
+                "url":"http://relately.slothattax.me/select/world/cities"
+            },
+            "countries":{
+                "url":"http://relately.slothattax.me/select/world/countries"
+            }
+        }
+    },
     "/hipsteripsum":{
         "template":"content.html",
         "context":{
