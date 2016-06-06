@@ -4,8 +4,9 @@
     These are posts from http://jsonplaceholder.typicode.com/
 
     {% for item in items %}
-        {{ item.title }}
-        {{ item.body }}
-        boofi
+        <div>
+            <h3>{{ item.title }}</h3>
+            {{ item.body }}
+        </div>
     {% endfor %}
 {% endblock %}
