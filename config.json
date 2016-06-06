@@ -29,8 +29,14 @@
             "url":"http://uinames.com/api/"
         }
     },
-    "/posts/:id":{
+    "/posts/":{
         "template":"posts.html",
+        "context":{
+            "url":"http://jsonplaceholder.typicode.com/posts/"
+        }
+    },
+    "/posts/:id":{
+        "template":"post.html",
         "context":{
             "url":"http://jsonplaceholder.typicode.com/posts/{{ req.params.id }}"
         }
