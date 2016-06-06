@@ -3,7 +3,9 @@
 {% block body %}
     These are posts from http://jsonplaceholder.typicode.com/
 
-    {% for item in context %}
-        {{ item }}
+    {% for item in items %}
+        {{ item.title }}
+        {{ item.body }}
+        boofi
     {% endfor %}
 {% endblock %}
