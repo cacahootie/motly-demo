@@ -28,5 +28,11 @@
         "context":{
             "url":"http://uinames.com/api/"
         }
+    },
+    "/posts":{
+        "template":"posts.html",
+        "context":{
+            "url":"http://jsonplaceholder.typicode.com/posts"
+        }
     }
 }
