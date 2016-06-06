@@ -32,7 +32,7 @@
     "/posts/:id":{
         "template":"posts.html",
         "context":{
-            "url":"http://jsonplaceholder.typicode.com/posts/{{ params.id }}"
+            "url":"http://jsonplaceholder.typicode.com/posts/{{ req.params.id }}"
         }
     }
 }
