@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block body %}
-    {% for item in cities %}
+    {% for item in cities.results %}
         <i>{{ item.name }}</i>
     {% endfor %}
 
     <ul>
-    {% for item in countries %}
+    {% for item in countries.results %}
         <li>{{ item.name }}</li>
     {% endfor %}
     </ul>
