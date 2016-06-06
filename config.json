@@ -29,10 +29,10 @@
             "url":"http://uinames.com/api/"
         }
     },
-    "/posts":{
+    "/posts/:id":{
         "template":"posts.html",
         "context":{
-            "url":"http://jsonplaceholder.typicode.com/posts"
+            "url":"http://jsonplaceholder.typicode.com/posts/{{ id }}"
         }
     }
 }
