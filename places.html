@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block body %}
+    {% for item in cities %}
+        <i>{{ item.name }}</i>
+    {% endfor %}
+
+    <ul>
+    {% for item in countries %}
+        <li>{{ item.name }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
