@@ -5,7 +5,7 @@
 
     {% for item in items %}
         <div>
-            <a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>
+            <a href="{{ item.id }}"><h3>{{ item.title }}</h3></a>
             {{ item.body }}
         </div>
     {% endfor %}
