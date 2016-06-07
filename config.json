@@ -22,6 +22,7 @@
     },
     "/places":{
         "template":"places.html",
+        "ttl":60000,
         "context":{
             "cities":{
                 "url":"http://relately.slothattax.me/select/world/cities",
@@ -47,6 +48,7 @@
     },
     "/posts/":{
         "template":"posts.html",
+        "ttl":60000,
         "context":{
             "url":"http://jsonplaceholder.typicode.com/posts/",
             "ttl":60000
