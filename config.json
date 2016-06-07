@@ -1,5 +1,5 @@
 {
-    "/":{
+    "/countries":{
         "template":"a.html",
         "context":{
             "url":"http://relately.slothattax.me/select/world/countries",
