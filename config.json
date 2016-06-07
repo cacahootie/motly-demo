@@ -2,29 +2,34 @@
     "/":{
         "template":"a.html",
         "context":{
-            "url":"http://relately.slothattax.me/select/world/countries"
+            "url":"http://relately.slothattax.me/select/world/countries",
+            "ttl":60000
         }
     },
     "/cities":{
         "template":"b.html",
         "context":{
-            "url":"http://relately.slothattax.me/select/world/cities"
+            "url":"http://relately.slothattax.me/select/world/cities",
+            "ttl":60000
         }
     },
     "/captitals":{
         "template":"a.html",
         "context":{
-            "url":"http://relately.slothattax.me/select/world/capitals"
+            "url":"http://relately.slothattax.me/select/world/capitals",
+            "ttl":60000
         }
     },
     "/places":{
         "template":"places.html",
         "context":{
             "cities":{
-                "url":"http://relately.slothattax.me/select/world/cities"
+                "url":"http://relately.slothattax.me/select/world/cities",
+                "ttl":60000
             },
             "countries":{
-                "url":"http://relately.slothattax.me/select/world/countries"
+                "url":"http://relately.slothattax.me/select/world/countries",
+                "ttl":60000
             }
         }
     },
@@ -43,13 +48,15 @@
     "/posts/":{
         "template":"posts.html",
         "context":{
-            "url":"http://jsonplaceholder.typicode.com/posts/"
+            "url":"http://jsonplaceholder.typicode.com/posts/",
+            "ttl":60000
         }
     },
     "/posts/:id":{
         "template":"post.html",
         "context":{
-            "url":"http://jsonplaceholder.typicode.com/posts/{{ req.params.id }}"
+            "url":"http://jsonplaceholder.typicode.com/posts/{{ req.params.id }}",
+            "ttl":60000
         }
     }
 }
