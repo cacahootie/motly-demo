@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
 {% block body %}
-    {{ req.queryString }}
+    {{ req.method }}
+    {{ req.url }}
 {% endblock %}
