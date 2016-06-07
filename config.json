@@ -60,5 +60,8 @@
             "url":"http://jsonplaceholder.typicode.com/posts/{{ req.params.id }}",
             "ttl":60000
         }
+    },
+    "/request":{
+        "template":"request.html"
     }
 }
