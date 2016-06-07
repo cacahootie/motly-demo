@@ -3,4 +3,6 @@
 {% block body %}
     {{ req.method }}
     {{ req.url }}
+    {{ req.queryString }}
+    {{ req.ip }}
 {% endblock %}
