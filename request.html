@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block body %}
-    {{ req.method }}
-    {{ req.url }}
-    {{ req.queryString }}
-    {{ req.ip }}
+    <p>Method: {{ req.method }}</p>
+    <p>URL: {{ req.url }}</p>
+    <p>QueryString: {{ req.queryString }}</p>
+    <p>Requesting IP: {{ req.ip }}</p>
 {% endblock %}
