@@ -20,6 +20,25 @@
             "ttl":60000
         }
     },
+    "/cities_post":{
+        "template":"a.html",
+        "context":{
+            "url":"http://relately.slothattax.me/select",
+            "method":"post",
+            "body":{
+                "columns":["name"],
+                "target":"world.city",
+                "all":[
+                    {
+                        "left_operand": "countrycode",
+                        "operator": "=",
+                        "right_operand": "ARG"
+                    }
+                ]
+            },
+            "ttl":60000
+        }
+    },
     "/places":{
         "template":"places.html",
         "ttl":60000,
