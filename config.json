@@ -32,7 +32,7 @@
                     {
                         "left_operand": "countrycode",
                         "operator": "=",
-                        "right_operand": "ARG"
+                        "right_operand": "{{ req.query.countrycode }}"
                     }
                 ]
             },
