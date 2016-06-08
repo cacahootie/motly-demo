@@ -35,8 +35,7 @@
                         "right_operand": "{{ req.query.countrycode }}"
                     }
                 ]
-            },
-            "ttl":60000
+            }
         }
     },
     "/places":{
