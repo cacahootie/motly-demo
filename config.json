@@ -6,7 +6,7 @@
             "ttl":60000
         },
         "embed":{
-            "html_template":"a_embed.html",
+            "template":"a_embed.html",
             "meta":{
                 "version":"0.1",
                 "type":"rich",
