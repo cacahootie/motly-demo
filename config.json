@@ -5,14 +5,17 @@
             "url":"http://relately.slothattax.me/select/world/countries",
             "ttl":60000
         },
-        "meta":{
-            "version":"0.1",
-            "type":"rich",
-            "title":"Countries",
-            "author_name":"Bob's Body Shop",
-            "author_url":"http://www.bobs.com",
-            "provider_name":"motly",
-            "provider_url":"http://www.github.com/cacahootie/motly/"
+        "embed":{
+            "html_template":"a.html",
+            "meta":{
+                "version":"0.1",
+                "type":"rich",
+                "title":"Countries",
+                "author_name":"Bob's Body Shop",
+                "author_url":"http://www.bobs.com",
+                "provider_name":"motly",
+                "provider_url":"http://www.github.com/cacahootie/motly/"
+            }
         }
     },
     "/cities":{
