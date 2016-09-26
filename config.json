@@ -93,5 +93,13 @@
     },
     "/request":{
         "template":"request.html"
+    },
+    "/snippet":{
+        "template":"snippet.html",
+        "context":{
+            "snippet": {
+                "url": "https://rawgit.com/cacahootie/motly-static-demo/master/static/snippet.html"
+            }
+        }
     }
 }
